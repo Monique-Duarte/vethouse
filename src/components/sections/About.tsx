@@ -1,7 +1,5 @@
-// src/components/sections/About.tsx
 import Image from 'next/image';
 
-// Dados dos fundadores (você pode adicionar os nomes depois)
 const founders = [
   {
     name: 'Dr. Gustavo Rech',
@@ -64,7 +62,7 @@ export default function About() {
                     <Image
                       src={founder.image}
                       alt={founder.name || `Fundador ${index + 1} da VetHouse`}
-                      fill 
+                      fill
                       className="transition-transform duration-300 hover:scale-110 object-cover"
                     />
                   </div>
