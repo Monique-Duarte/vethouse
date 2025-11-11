@@ -2,6 +2,11 @@
   "name": "vethouse",
   "version": "0.1.0",
   "private": true,
+  "description": "web site do Hospital Veterinário VetHouse",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev --webpack",
     "build": "next build --webpack",
