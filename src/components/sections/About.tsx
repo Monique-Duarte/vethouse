@@ -54,9 +54,7 @@ export default function About() {
                 <div 
                   key={index}
                   className="flex flex-col items-center"
-                  // Efeito de "subir" escalonado
                   style={{ animationDelay: `${index * 150}ms` }}
-                  // (Você pode adicionar uma classe de animação se quiser)
                 >
                   <div className="w-48 h-48 sm:w-56 sm:h-56 relative rounded-full overflow-hidden shadow-lg">
                     <Image
